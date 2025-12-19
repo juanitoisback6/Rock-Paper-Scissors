@@ -3,11 +3,8 @@
  let isS = document.getElementById("isS");
 let answerS = document.getElementById("answerS");
 let playerPickO = document.getElementById("playerPickO");
-let computerPick = document.getElementById("computerPick");
+let computerPickO = document.getElementById("computerPickO");
   
-
- 
-
 
 
 function juga (playerPick) {
@@ -52,9 +49,8 @@ console.log(answer);
 console.log(`Computer picked: ${computer}`);
 
 answerS.textContent=  answer;
-playerPick.textContent=  playerPick;
-computerPick.textContent=  computerPick;
-
+  playerPickO.textContent=  `Player picked: ${playerPick}`;
+ computerPickO.textContent=  `Computer picked: ${computer}`;
 
 }
 
